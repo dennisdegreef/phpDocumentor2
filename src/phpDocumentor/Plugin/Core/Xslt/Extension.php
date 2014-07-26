@@ -54,7 +54,7 @@ class Extension
 
         $markdown = \Parsedown::instance();
 
-        return $markdown->parse($text);
+        return $markdown->text($text);
     }
 
     /**
